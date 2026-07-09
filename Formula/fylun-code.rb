@@ -1,28 +1,28 @@
 class FylunCode < Formula
   desc "Terminal AI coding agent connected to your Fylun account (built on OpenCode, MIT)"
   homepage "https://fylun.ai/code"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.8/fylun-code-darwin-arm64.zip"
-      sha256 "c26d519bd41b8d8312d10478843ebb1e2c5fcb9775e49da683e8097193e61d0f"
+      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.9/fylun-code-darwin-arm64.zip"
+      sha256 "5b309b8b431f2d05bc040cadcfdf4713d166aab1442d6719a836c508968a0c5d"
     end
     on_intel do
-      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.8/fylun-code-darwin-x64.zip"
-      sha256 "fa89c2aa4feb61fc36e4f222426aec4457eff0a58e9b1022751dd51865e008fd"
+      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.9/fylun-code-darwin-x64.zip"
+      sha256 "f03db93f3faef2581cafd12936573393bec88de08e31816be732920aa8af5d92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.8/fylun-code-linux-arm64.tar.gz"
-      sha256 "71f207ab09c9efd92446fb005c0c9ada4826fc39e4b91172d4a01d42ad4784bf"
+      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.9/fylun-code-linux-arm64.tar.gz"
+      sha256 "052fe3c4ff06b1ca4f5064914765881d0421f0953c09ccb954b0c1fb064e172e"
     end
     on_intel do
-      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.8/fylun-code-linux-x64.tar.gz"
-      sha256 "5233b38df7d200723650bbcd2b056b2d91f8ebe87c01613ed458ae20be6012c1"
+      url "https://github.com/usefylun/fylun-code/releases/download/v0.1.9/fylun-code-linux-x64.tar.gz"
+      sha256 "e7e81b2e1ef111f2e1fa391ff649e74bd85ee72b9fb296263bc4b180d2e21aba"
     end
   end
 
