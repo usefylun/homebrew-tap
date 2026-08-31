@@ -7,22 +7,22 @@ class FylunCode < Formula
   on_macos do
     on_arm do
       url "https://github.com/usefylun/fylun-code/releases/download/v0.1.23/fylun-code-darwin-arm64.zip"
-      sha256 "4e23055dea319446f8ddd8ac1ba27ee11c78a1f9594693722b52e3d54362c46d"
+      sha256 "47beee3a6bbc512b90a804821e6e42ef897e634974499d3f1a89c28b70c8a60f"
     end
     on_intel do
       url "https://github.com/usefylun/fylun-code/releases/download/v0.1.23/fylun-code-darwin-x64.zip"
-      sha256 "ffd51eb970f727ba8736b498ee89a5ac317d2b0ef9c55c0c15462104aa45b081"
+      sha256 "9fee87addf7d8624f1cf50e51d19b222a8d38785061a384c8a93a6b603ef5a8d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/usefylun/fylun-code/releases/download/v0.1.23/fylun-code-linux-arm64.tar.gz"
-      sha256 "c6ad5936286e6a6836cb1cc781e604b8e232d857175e7ee9bf5f3d3dfdc409c0"
+      sha256 "3573a4dad399780cf8f355af2728fcac397a9f183b1de47700b3026898597a2a"
     end
     on_intel do
       url "https://github.com/usefylun/fylun-code/releases/download/v0.1.23/fylun-code-linux-x64.tar.gz"
-      sha256 "8e9abb54e6e8c8953ea3dbbab351f4dcaf92765696bd864b1f4ad86a5fe38296"
+      sha256 "b3f14cf411a675d38bcc7b881997d3a91eb07dd75ddd988970af5cbfd720c2bd"
     end
   end
 
